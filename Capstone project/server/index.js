@@ -1,4 +1,5 @@
 const http = require("http");
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const { getPool, initDatabase, seedDatabase } = require("./db");
@@ -9,6 +10,10 @@ const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
+
+// ─── Serve static frontend files ──────────────────────────────────
+const publicDir = path.join(__dirname, "public");
+app.use(express.static(publicDir));
 
 // ─── Startup ──────────────────────────────────────────────────────
 async function start() {
@@ -211,6 +216,11 @@ app.get("/api/health", async (req, res) => {
   } catch {
     res.status(500).json({ status: "error", database: "disconnected" });
   }
+});
+
+// ─── Catch-all: serve frontend for client-side routing ────────────
+app.get("{*splat}", (req, res) => {
+  res.sendFile(path.join(publicDir, "index.html"));
 });
 
 // ─── Helpers ──────────────────────────────────────────────────────

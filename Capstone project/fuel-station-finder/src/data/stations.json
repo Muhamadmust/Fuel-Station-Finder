@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "TotalEnergies Wuse",
+    "brand": "TotalEnergies",
+    "address": "12 Wuse Zone 5, Abuja, Nigeria",
+    "lat": 9.0627,
+    "lng": 7.4891,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 617, "diesel": 750 },
+    "status": "has_fuel",
+    "lastReported": "2026-08-31T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "name": "NNPC Gwarinpa",
+    "brand": "NNPC",
+    "address": "32 3rd Avenue Gwarinpa, Abuja, Nigeria",
+    "lat": 9.0865,
+    "lng": 7.4583,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 617, "diesel": 745 },
+    "status": "long_queue",
+    "lastReported": "2026-08-31T07:15:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Oando Maitama",
+    "brand": "Oando",
+    "address": "7 Aguiyi-Ironsi Street, Maitama, Abuja",
+    "lat": 9.0795,
+    "lng": 7.4856,
+    "fuelTypes": ["petrol"],
+    "prices": { "petrol": 620 },
+    "status": "out_of_stock",
+    "lastReported": "2026-08-31T06:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Mobil Kubwa",
+    "brand": "Mobil",
+    "address": "Phase 4 Kubwa Extension, Abuja",
+    "lat": 9.1176,
+    "lng": 7.4200,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 617, "diesel": 748 },
+    "status": "has_fuel",
+    "lastReported": "2026-08-31T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Ardova Lugbe",
+    "brand": "Ardova",
+    "address": "Airport Road Lugbe, Abuja",
+    "lat": 9.0390,
+    "lng": 7.4310,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 617, "diesel": 750 },
+    "status": "has_fuel",
+    "lastReported": "2026-08-31T08:45:00Z"
+  },
+  {
+    "id": 6,
+    "name": "NNPC Central Area",
+    "brand": "NNPC",
+    "address": "14 Shehu Shagari Way, Central Area, Abuja",
+    "lat": 9.0588,
+    "lng": 7.4890,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 617, "diesel": 745 },
+    "status": "long_queue",
+    "lastReported": "2026-08-31T07:50:00Z"
+  },
+  {
+    "id": 7,
+    "name": "TotalEnergies Garki",
+    "brand": "TotalEnergies",
+    "address": "40 Square Road Garki, Abuja",
+    "lat": 9.0640,
+    "lng": 7.4923,
+    "fuelTypes": ["petrol"],
+    "prices": { "petrol": 617 },
+    "status": "has_fuel",
+    "lastReported": "2026-08-31T09:10:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Oando Dutse",
+    "brand": "Oando",
+    "address": "Dutse Alhaji, Bwari Area Council, Abuja",
+    "lat": 9.1300,
+    "lng": 7.4620,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 620, "diesel": 755 },
+    "status": "out_of_stock",
+    "lastReported": "2026-08-31T05:30:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Ardova Jabi",
+    "brand": "Ardova",
+    "address": "Jabi District, Abuja",
+    "lat": 9.0670,
+    "lng": 7.4620,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 617, "diesel": 748 },
+    "status": "has_fuel",
+    "lastReported": "2026-08-31T08:20:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Mobil Asokoro",
+    "brand": "Mobil",
+    "address": "Asokoro District, Abuja",
+    "lat": 9.0370,
+    "lng": 7.5040,
+    "fuelTypes": ["petrol", "diesel"],
+    "prices": { "petrol": 617, "diesel": 750 },
+    "status": "has_fuel",
+    "lastReported": "2026-08-31T09:05:00Z"
+  }
+]
